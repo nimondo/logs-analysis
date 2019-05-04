@@ -1,0 +1,6 @@
+h1,h2,form { text-align: center; }
+div.post { border: 1px solid #999;
+                 padding: 10px 10px;
+                 margin: 10px 20%%; }
+hr.postbound { width: 50%%; }
+em.date { color: #999 }
