@@ -89,8 +89,6 @@ _Logging into the Linux VM with `vagrant ssh`._
 
 If you are now looking at a shell prompt that starts with the word `vagrant` (as in the above screenshot), congratulations — you've gotten logged into your Linux VM.
 
-If not, take a look at the [Troubleshooting](#troubleshooting) section below.
-
 ### The files for this test
 
 Inside the VM, change directory to `/vagrant` and look around with `ls`.
