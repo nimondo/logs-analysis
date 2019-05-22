@@ -18,7 +18,7 @@ def main():
 	<html>
 	   <head>
 		<title>DB Newsdata</title>
-		<link rel="stylesheet" href="{{ url_for('static', filename='app.css') }}">
+		<link rel="stylesheet" href="{{ url_for( filename='app.css') }}">
 		</head>
 	<body>
 		<h1>First Project</h1>
