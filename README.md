@@ -142,8 +142,8 @@ As you explore the data, you may find it useful to take notes!
 
 ### Run the app
 
-Use `python newsdata.py` inside the VM._ The result is in result.txt.
-
+Use `python newsdata-txt.py` inside the VM._ The result is in result.txt.
+Use `python newsdata.py` inside the VM._ The result is in web page.
 ### Logging out and in
 
 If you type `exit` (or `Ctrl-D`) at the shell prompt inside the VM, you will be logged out, and put back into your host computer's shell. To log back in, make sure you're in the same directory and type `vagrant ssh` again.
@@ -153,11 +153,13 @@ If you reboot your computer, you will need to run `vagrant up` to restart the VM
 
  --newsdata.py using flask to display the results
  
- --newsdatadb.py, the programm witch make request from psql to fetch results
+ --newsdatadb.py, the programm witch make request from psql to fetch results and display it in web page
+ --newsdatadb-txt.py,the programm witch make request from psql to fetch results and display it in plaintext
  
  --app.css is the template style file
  
  --results.txt is the resluts from requests hold on plain text
  
+ The installation and instruction is a part of udacity.
  
 [(Back to TOC)](#table-of-contents)
