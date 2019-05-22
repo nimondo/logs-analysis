@@ -6,11 +6,20 @@ DBNAME = "news"
 
 def get_result():
   """Return the top three most viewed articles with their view counts.
+    the top three most article author with their view counts,
+	 and the top one day whith  more than 1% of requests lead to errors
 
     Returns:
-    A list of two element tuples. Each tuple contains:
+    A dictionary of 3 elements tuples. 
+	the top_three_articles tuple return:
       - the title of the article.
       - the number of views for the article
+	 The top_three_authors return :
+	  - the name of author.
+      - the number of views for his articles
+	 The top_day_error tuple return:
+	  - the day.
+      - the percent of the error
 
     The list is sorted by number of views in descending order. Only the three
     most viewed articles are returned.
